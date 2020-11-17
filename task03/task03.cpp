@@ -15,7 +15,7 @@ const int lorrySize = stockSize;
 queue<int> lorry;
 sem_t lorry_items;
 
-int sum = 0;
+unsigned long long sum = 0;
 
 void *Ivanov(void* param)
 {
